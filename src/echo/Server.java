@@ -36,7 +36,7 @@ public class Server { //기본샘플
 			//출장 thread.start()
 			
 			Thread thread = new ServerThread(socket); //소켓번호 알려주고 나가!라함 위에있는 소켓 들고 출장 가게 됨. 출장가는데는 필요없는데 출장가서 메세지 주고받는데는 필요하다. 
-			thread.start();//13:17 스타트인지 소켓인지?
+			thread.start();
 		}
 		
 		/*	남아있으면 오류나니까 꺼버림
